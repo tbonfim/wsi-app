@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 // import axios from 'axios';
 import Product from '../product/product'
+import Carousel from '../carousel/carousel'
 
 import data from '../../data/productsList'
 
@@ -10,10 +11,22 @@ class ProductList extends Component {
     this.state = {
       loading: false,
       error: false,
-      list: []
+      list: [], 
+      showCarousel: false
     };
+    this.showCarousel = this.showCarousel.bind(this)
   }
 
+  showCarousel = (currentProductImages) => {
+    this.setState({showCarousel: true , productImages: currentProductImages});
+    document.body.classList.add('carousel-open');
+    document.body.classList.remove('carousel-closed');
+  }
+  hideCarousel = () => {
+    this.setState({showCarousel: false});
+    document.body.classList.add('carousel-closed');
+    document.body.classList.remove('carousel-open');
+  }
 
   fetchProducts = () => {
     if (data && data.groups) {
@@ -53,9 +66,10 @@ class ProductList extends Component {
     if (error) { return <div>Error!</div>; }
     return (
       <div id="content">
+      { this.state.showCarousel ? <Carousel hideCarousel={this.hideCarousel} imageList={this.state.productImages}/> : null}
         <ul className="row pl-0"> {
           list.map( product => (
-              <Product key={product.id} product={product} />
+            <Product key={product.id} product={product} showCarousel={this.showCarousel}/>
           ))
         }
         </ul>
