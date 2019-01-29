@@ -32,9 +32,9 @@ Welcome to the Williams-Sonoma Coding Challenge!
 
 For this implementation I decided to use [React](https://reactjs.org/) as a view library and [Bootstrap](https://getbootstrap.com/) as the css framework. I also used another packages that worths mentioning here:
 
-1. axios: Promise based HTTP client for the browser and node.js - Actually, the request mock is commented inside the code, I just let it there to simulate a real world situation
-2. enzyme: Helper for unit test
-3. react-currency-format: Usefull component to format 
+1. axios: Promise based HTTP client for the browser and node.js - Actually, the request request is commented inside the code and a mocked JSON is used to get data, I just let it there to simulate a real world situation
+2. enzyme: Helper for unit tests
+3. react-currency-format: Usefull component to format currency.
 
 Due to the simplicity of this test, it wasn't necessary to go through the complete react lifecycle, but productList component uses `componentDidMount` in order to fetch data; Also, since there's no input fields in the test, the state of the components werent explored deeply, although the Carousel showing/hiding is controlled by the state - Including a parent-child component callback to refer to the parent state. 
 
