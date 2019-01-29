@@ -1,0 +1,913 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components ProductList should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Product
+    product={
+      Object {
+        "flags": Array [
+          Object {
+            "bopisSuppress": false,
+            "id": "newcore",
+            "rank": 3,
+          },
+          Object {
+            "bopisSuppress": false,
+            "id": "mono",
+            "rank": 5,
+          },
+          Object {
+            "bopisSuppress": false,
+            "id": "organic",
+            "rank": 7,
+          },
+        ],
+        "hero": Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/ab/images/wcm/products/201847/0012/organic-luxe-fibrosoft-towels-white-m.jpg",
+          "meta": "",
+          "rel": "hero",
+          "size": "m",
+          "width": 363,
+        },
+        "id": "organic-luxe-fibrosoft-towels-white-b2650",
+        "images": Array [
+          Object {
+            "alt": "",
+            "height": 363,
+            "href": "https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-1-m.jpg",
+            "meta": "",
+            "rel": "althero",
+            "size": "m",
+            "width": 363,
+          },
+          Object {
+            "alt": "",
+            "height": 363,
+            "href": "https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-midnight-m.jpg",
+            "meta": "",
+            "rel": "althero",
+            "size": "m",
+            "width": 363,
+          },
+          Object {
+            "alt": "",
+            "height": 363,
+            "href": "https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-m.jpg",
+            "meta": "",
+            "rel": "althero",
+            "size": "m",
+            "width": 363,
+          },
+        ],
+        "links": Object {
+          "www": "https://www.westelm.com/products/organic-luxe-fibrosoft-towels-white-b2650/",
+        },
+        "messages": Array [
+          "Ships Free with code FREERIDE",
+        ],
+        "name": "Organic Luxe Fibrosoft™ Towels - White",
+        "priceRange": Object {
+          "regular": Object {
+            "high": 95,
+            "low": 9,
+          },
+          "selling": Object {
+            "high": 69,
+            "low": 6,
+          },
+          "type": "special",
+        },
+        "reviews": Object {
+          "averageRating": 0,
+          "id": "organic-luxe-fibrosoft-towels-white-b2650",
+          "likelihood": 0,
+          "recommendationCount": 0,
+          "reviewCount": 0,
+          "type": "GROUP_REVIEWS",
+        },
+        "swatches": Array [],
+        "thumbnail": Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/ab/images/wcm/products/201847/0012/organic-luxe-fibrosoft-towels-white-m.jpg",
+          "meta": "",
+          "rel": "thumbnail",
+          "size": "m",
+          "width": 363,
+        },
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <a
+        href="#"
+        onClick={[Function]}
+      >
+        <img
+          alt=""
+          className="img-fluid card-img-top"
+          height={363}
+          src="https://www.westelm.com/weimgs/ab/images/wcm/products/201847/0012/organic-luxe-fibrosoft-towels-white-m.jpg"
+          width={363}
+        />
+        <div
+          className="card-body"
+        >
+          <p
+            className="card-title text-info text-center"
+          >
+            Organic Luxe Fibrosoft™ Towels - White
+          </p>
+          <span
+            className="card-text text-danger"
+          >
+            From 
+            <CurrencyFormat
+              allowNegative={true}
+              decimalScale={2}
+              decimalSeparator="."
+              displayType="text"
+              fixedDecimalScale={true}
+              isAllowed={[Function]}
+              isNumericString={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onMouseUp={[Function]}
+              onValueChange={[Function]}
+              prefix="$"
+              suffix=""
+              thousandSeparator={true}
+              thousandSpacing="3"
+              type="text"
+              value={9}
+            />
+            <span>
+               to 
+            </span>
+            <CurrencyFormat
+              allowNegative={true}
+              decimalScale={2}
+              decimalSeparator="."
+              displayType="text"
+              fixedDecimalScale={true}
+              isAllowed={[Function]}
+              isNumericString={false}
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onMouseUp={[Function]}
+              onValueChange={[Function]}
+              prefix="$"
+              suffix=""
+              thousandSeparator={true}
+              thousandSpacing="3"
+              type="text"
+              value={95}
+            />
+          </span>
+        </div>
+      </a>,
+      "className": "card col-md-4 col-xs-1 border-0 mt-5 mb-2 shadow-sm",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <img
+            alt=""
+            className="img-fluid card-img-top"
+            height={363}
+            src="https://www.westelm.com/weimgs/ab/images/wcm/products/201847/0012/organic-luxe-fibrosoft-towels-white-m.jpg"
+            width={363}
+          />,
+          <div
+            className="card-body"
+          >
+            <p
+              className="card-title text-info text-center"
+            >
+              Organic Luxe Fibrosoft™ Towels - White
+            </p>
+            <span
+              className="card-text text-danger"
+            >
+              From 
+              <CurrencyFormat
+                allowNegative={true}
+                decimalScale={2}
+                decimalSeparator="."
+                displayType="text"
+                fixedDecimalScale={true}
+                isAllowed={[Function]}
+                isNumericString={false}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onMouseUp={[Function]}
+                onValueChange={[Function]}
+                prefix="$"
+                suffix=""
+                thousandSeparator={true}
+                thousandSpacing="3"
+                type="text"
+                value={9}
+              />
+              <span>
+                 to 
+              </span>
+              <CurrencyFormat
+                allowNegative={true}
+                decimalScale={2}
+                decimalSeparator="."
+                displayType="text"
+                fixedDecimalScale={true}
+                isAllowed={[Function]}
+                isNumericString={false}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onMouseUp={[Function]}
+                onValueChange={[Function]}
+                prefix="$"
+                suffix=""
+                thousandSeparator={true}
+                thousandSpacing="3"
+                type="text"
+                value={95}
+              />
+            </span>
+          </div>,
+        ],
+        "href": "#",
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "alt": "",
+            "className": "img-fluid card-img-top",
+            "height": 363,
+            "src": "https://www.westelm.com/weimgs/ab/images/wcm/products/201847/0012/organic-luxe-fibrosoft-towels-white-m.jpg",
+            "width": 363,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "img",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <p
+                className="card-title text-info text-center"
+              >
+                Organic Luxe Fibrosoft™ Towels - White
+              </p>,
+              <span
+                className="card-text text-danger"
+              >
+                From 
+                <CurrencyFormat
+                  allowNegative={true}
+                  decimalScale={2}
+                  decimalSeparator="."
+                  displayType="text"
+                  fixedDecimalScale={true}
+                  isAllowed={[Function]}
+                  isNumericString={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onMouseUp={[Function]}
+                  onValueChange={[Function]}
+                  prefix="$"
+                  suffix=""
+                  thousandSeparator={true}
+                  thousandSpacing="3"
+                  type="text"
+                  value={9}
+                />
+                <span>
+                   to 
+                </span>
+                <CurrencyFormat
+                  allowNegative={true}
+                  decimalScale={2}
+                  decimalSeparator="."
+                  displayType="text"
+                  fixedDecimalScale={true}
+                  isAllowed={[Function]}
+                  isNumericString={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onMouseUp={[Function]}
+                  onValueChange={[Function]}
+                  prefix="$"
+                  suffix=""
+                  thousandSeparator={true}
+                  thousandSpacing="3"
+                  type="text"
+                  value={95}
+                />
+              </span>,
+            ],
+            "className": "card-body",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "Organic Luxe Fibrosoft™ Towels - White",
+                "className": "card-title text-info text-center",
+              },
+              "ref": null,
+              "rendered": "Organic Luxe Fibrosoft™ Towels - White",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "From ",
+                  <CurrencyFormat
+                    allowNegative={true}
+                    decimalScale={2}
+                    decimalSeparator="."
+                    displayType="text"
+                    fixedDecimalScale={true}
+                    isAllowed={[Function]}
+                    isNumericString={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onMouseUp={[Function]}
+                    onValueChange={[Function]}
+                    prefix="$"
+                    suffix=""
+                    thousandSeparator={true}
+                    thousandSpacing="3"
+                    type="text"
+                    value={9}
+                  />,
+                  <span>
+                     to 
+                  </span>,
+                  <CurrencyFormat
+                    allowNegative={true}
+                    decimalScale={2}
+                    decimalSeparator="."
+                    displayType="text"
+                    fixedDecimalScale={true}
+                    isAllowed={[Function]}
+                    isNumericString={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onMouseUp={[Function]}
+                    onValueChange={[Function]}
+                    prefix="$"
+                    suffix=""
+                    thousandSeparator={true}
+                    thousandSpacing="3"
+                    type="text"
+                    value={95}
+                  />,
+                ],
+                "className": "card-text text-danger",
+              },
+              "ref": null,
+              "rendered": Array [
+                "From ",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "allowNegative": true,
+                    "decimalScale": 2,
+                    "decimalSeparator": ".",
+                    "displayType": "text",
+                    "fixedDecimalScale": true,
+                    "isAllowed": [Function],
+                    "isNumericString": false,
+                    "onBlur": [Function],
+                    "onChange": [Function],
+                    "onFocus": [Function],
+                    "onKeyDown": [Function],
+                    "onMouseUp": [Function],
+                    "onValueChange": [Function],
+                    "prefix": "$",
+                    "suffix": "",
+                    "thousandSeparator": true,
+                    "thousandSpacing": "3",
+                    "type": "text",
+                    "value": 9,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": " to ",
+                  },
+                  "ref": null,
+                  "rendered": " to ",
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "allowNegative": true,
+                    "decimalScale": 2,
+                    "decimalSeparator": ".",
+                    "displayType": "text",
+                    "fixedDecimalScale": true,
+                    "isAllowed": [Function],
+                    "isNumericString": false,
+                    "onBlur": [Function],
+                    "onChange": [Function],
+                    "onFocus": [Function],
+                    "onKeyDown": [Function],
+                    "onMouseUp": [Function],
+                    "onValueChange": [Function],
+                    "prefix": "$",
+                    "suffix": "",
+                    "thousandSeparator": true,
+                    "thousandSpacing": "3",
+                    "type": "text",
+                    "value": 95,
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": "span",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "a",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <a
+          href="#"
+          onClick={[Function]}
+        >
+          <img
+            alt=""
+            className="img-fluid card-img-top"
+            height={363}
+            src="https://www.westelm.com/weimgs/ab/images/wcm/products/201847/0012/organic-luxe-fibrosoft-towels-white-m.jpg"
+            width={363}
+          />
+          <div
+            className="card-body"
+          >
+            <p
+              className="card-title text-info text-center"
+            >
+              Organic Luxe Fibrosoft™ Towels - White
+            </p>
+            <span
+              className="card-text text-danger"
+            >
+              From 
+              <CurrencyFormat
+                allowNegative={true}
+                decimalScale={2}
+                decimalSeparator="."
+                displayType="text"
+                fixedDecimalScale={true}
+                isAllowed={[Function]}
+                isNumericString={false}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onMouseUp={[Function]}
+                onValueChange={[Function]}
+                prefix="$"
+                suffix=""
+                thousandSeparator={true}
+                thousandSpacing="3"
+                type="text"
+                value={9}
+              />
+              <span>
+                 to 
+              </span>
+              <CurrencyFormat
+                allowNegative={true}
+                decimalScale={2}
+                decimalSeparator="."
+                displayType="text"
+                fixedDecimalScale={true}
+                isAllowed={[Function]}
+                isNumericString={false}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                onMouseUp={[Function]}
+                onValueChange={[Function]}
+                prefix="$"
+                suffix=""
+                thousandSeparator={true}
+                thousandSpacing="3"
+                type="text"
+                value={95}
+              />
+            </span>
+          </div>
+        </a>,
+        "className": "card col-md-4 col-xs-1 border-0 mt-5 mb-2 shadow-sm",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <img
+              alt=""
+              className="img-fluid card-img-top"
+              height={363}
+              src="https://www.westelm.com/weimgs/ab/images/wcm/products/201847/0012/organic-luxe-fibrosoft-towels-white-m.jpg"
+              width={363}
+            />,
+            <div
+              className="card-body"
+            >
+              <p
+                className="card-title text-info text-center"
+              >
+                Organic Luxe Fibrosoft™ Towels - White
+              </p>
+              <span
+                className="card-text text-danger"
+              >
+                From 
+                <CurrencyFormat
+                  allowNegative={true}
+                  decimalScale={2}
+                  decimalSeparator="."
+                  displayType="text"
+                  fixedDecimalScale={true}
+                  isAllowed={[Function]}
+                  isNumericString={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onMouseUp={[Function]}
+                  onValueChange={[Function]}
+                  prefix="$"
+                  suffix=""
+                  thousandSeparator={true}
+                  thousandSpacing="3"
+                  type="text"
+                  value={9}
+                />
+                <span>
+                   to 
+                </span>
+                <CurrencyFormat
+                  allowNegative={true}
+                  decimalScale={2}
+                  decimalSeparator="."
+                  displayType="text"
+                  fixedDecimalScale={true}
+                  isAllowed={[Function]}
+                  isNumericString={false}
+                  onBlur={[Function]}
+                  onChange={[Function]}
+                  onFocus={[Function]}
+                  onKeyDown={[Function]}
+                  onMouseUp={[Function]}
+                  onValueChange={[Function]}
+                  prefix="$"
+                  suffix=""
+                  thousandSeparator={true}
+                  thousandSpacing="3"
+                  type="text"
+                  value={95}
+                />
+              </span>
+            </div>,
+          ],
+          "href": "#",
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "alt": "",
+              "className": "img-fluid card-img-top",
+              "height": 363,
+              "src": "https://www.westelm.com/weimgs/ab/images/wcm/products/201847/0012/organic-luxe-fibrosoft-towels-white-m.jpg",
+              "width": 363,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "img",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="card-title text-info text-center"
+                >
+                  Organic Luxe Fibrosoft™ Towels - White
+                </p>,
+                <span
+                  className="card-text text-danger"
+                >
+                  From 
+                  <CurrencyFormat
+                    allowNegative={true}
+                    decimalScale={2}
+                    decimalSeparator="."
+                    displayType="text"
+                    fixedDecimalScale={true}
+                    isAllowed={[Function]}
+                    isNumericString={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onMouseUp={[Function]}
+                    onValueChange={[Function]}
+                    prefix="$"
+                    suffix=""
+                    thousandSeparator={true}
+                    thousandSpacing="3"
+                    type="text"
+                    value={9}
+                  />
+                  <span>
+                     to 
+                  </span>
+                  <CurrencyFormat
+                    allowNegative={true}
+                    decimalScale={2}
+                    decimalSeparator="."
+                    displayType="text"
+                    fixedDecimalScale={true}
+                    isAllowed={[Function]}
+                    isNumericString={false}
+                    onBlur={[Function]}
+                    onChange={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onMouseUp={[Function]}
+                    onValueChange={[Function]}
+                    prefix="$"
+                    suffix=""
+                    thousandSeparator={true}
+                    thousandSpacing="3"
+                    type="text"
+                    value={95}
+                  />
+                </span>,
+              ],
+              "className": "card-body",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Organic Luxe Fibrosoft™ Towels - White",
+                  "className": "card-title text-info text-center",
+                },
+                "ref": null,
+                "rendered": "Organic Luxe Fibrosoft™ Towels - White",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "From ",
+                    <CurrencyFormat
+                      allowNegative={true}
+                      decimalScale={2}
+                      decimalSeparator="."
+                      displayType="text"
+                      fixedDecimalScale={true}
+                      isAllowed={[Function]}
+                      isNumericString={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseUp={[Function]}
+                      onValueChange={[Function]}
+                      prefix="$"
+                      suffix=""
+                      thousandSeparator={true}
+                      thousandSpacing="3"
+                      type="text"
+                      value={9}
+                    />,
+                    <span>
+                       to 
+                    </span>,
+                    <CurrencyFormat
+                      allowNegative={true}
+                      decimalScale={2}
+                      decimalSeparator="."
+                      displayType="text"
+                      fixedDecimalScale={true}
+                      isAllowed={[Function]}
+                      isNumericString={false}
+                      onBlur={[Function]}
+                      onChange={[Function]}
+                      onFocus={[Function]}
+                      onKeyDown={[Function]}
+                      onMouseUp={[Function]}
+                      onValueChange={[Function]}
+                      prefix="$"
+                      suffix=""
+                      thousandSeparator={true}
+                      thousandSpacing="3"
+                      type="text"
+                      value={95}
+                    />,
+                  ],
+                  "className": "card-text text-danger",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "From ",
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "allowNegative": true,
+                      "decimalScale": 2,
+                      "decimalSeparator": ".",
+                      "displayType": "text",
+                      "fixedDecimalScale": true,
+                      "isAllowed": [Function],
+                      "isNumericString": false,
+                      "onBlur": [Function],
+                      "onChange": [Function],
+                      "onFocus": [Function],
+                      "onKeyDown": [Function],
+                      "onMouseUp": [Function],
+                      "onValueChange": [Function],
+                      "prefix": "$",
+                      "suffix": "",
+                      "thousandSeparator": true,
+                      "thousandSpacing": "3",
+                      "type": "text",
+                      "value": 9,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": " to ",
+                    },
+                    "ref": null,
+                    "rendered": " to ",
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "allowNegative": true,
+                      "decimalScale": 2,
+                      "decimalSeparator": ".",
+                      "displayType": "text",
+                      "fixedDecimalScale": true,
+                      "isAllowed": [Function],
+                      "isNumericString": false,
+                      "onBlur": [Function],
+                      "onChange": [Function],
+                      "onFocus": [Function],
+                      "onKeyDown": [Function],
+                      "onMouseUp": [Function],
+                      "onValueChange": [Function],
+                      "prefix": "$",
+                      "suffix": "",
+                      "thousandSeparator": true,
+                      "thousandSpacing": "3",
+                      "type": "text",
+                      "value": 95,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                ],
+                "type": "span",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "a",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

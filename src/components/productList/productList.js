@@ -27,7 +27,9 @@ class ProductList extends Component {
     document.body.classList.add('carousel-closed');
     document.body.classList.remove('carousel-open');
   }
-
+  /**
+   * In a most complex enviromnent, this would be placed in a service specialized in data manipulation
+   */
   fetchProducts = () => {
     if (data && data.groups) {
       const productsList = data.groups;

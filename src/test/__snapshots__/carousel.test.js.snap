@@ -1,0 +1,1376 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`components Carousel should render correctly 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Carousel
+    imageList={
+      Array [
+        Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-1-m.jpg",
+          "meta": "",
+          "rel": "althero",
+          "size": "m",
+          "width": 363,
+        },
+        Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-midnight-m.jpg",
+          "meta": "",
+          "rel": "althero",
+          "size": "m",
+          "width": 363,
+        },
+        Object {
+          "alt": "",
+          "height": 363,
+          "href": "https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-m.jpg",
+          "meta": "",
+          "rel": "althero",
+          "size": "m",
+          "width": 363,
+        },
+      ]
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "checkPropTypes": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": <div
+        className="mt-5 pt-5"
+        id="carousel"
+      >
+        <button
+          aria-label="Close"
+          className="close"
+          onClick={[Function]}
+          type="button"
+        >
+          <span
+            aria-hidden="true"
+          >
+            ×
+          </span>
+        </button>
+        <div
+          className="carousel slide"
+          data-ride="carousel"
+          id="productCarousel"
+        >
+          <ol
+            className="carousel-indicators"
+          >
+            <li
+              className="active"
+              data-slide-to={0}
+              data-target="#productCarousel"
+            />
+            <li
+              className=""
+              data-slide-to={1}
+              data-target="#productCarousel"
+            />
+            <li
+              className=""
+              data-slide-to={2}
+              data-target="#productCarousel"
+            />
+          </ol>
+          <div
+            className="carousel-inner"
+          >
+            <div
+              className="carousel-item active"
+            >
+              <img
+                alt=""
+                className="d-block img-fluid"
+                src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-1-m.jpg"
+              />
+            </div>
+            <div
+              className="carousel-item"
+            >
+              <img
+                alt=""
+                className="d-block img-fluid"
+                src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-midnight-m.jpg"
+              />
+            </div>
+            <div
+              className="carousel-item"
+            >
+              <img
+                alt=""
+                className="d-block img-fluid"
+                src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-m.jpg"
+              />
+            </div>
+          </div>
+          <a
+            className="carousel-control-prev mt-4"
+            data-slide="prev"
+            href="#productCarousel"
+            role="button"
+          >
+            <span
+              aria-hidden="true"
+              className="carousel-control-prev-icon"
+            />
+            <span
+              className="sr-only"
+            >
+              Previous
+            </span>
+          </a>
+          <a
+            className="carousel-control-next mt-4"
+            data-slide="next"
+            href="#productCarousel"
+            role="button"
+          >
+            <span
+              aria-hidden="true"
+              className="carousel-control-next-icon"
+            />
+            <span
+              className="sr-only"
+            >
+              Next
+            </span>
+          </a>
+        </div>
+      </div>,
+      "className": "h-100 w-100 justify-content-center align-items-center position-absolute sticky-top",
+      "id": "carouselContainer",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <button
+            aria-label="Close"
+            className="close"
+            onClick={[Function]}
+            type="button"
+          >
+            <span
+              aria-hidden="true"
+            >
+              ×
+            </span>
+          </button>,
+          <div
+            className="carousel slide"
+            data-ride="carousel"
+            id="productCarousel"
+          >
+            <ol
+              className="carousel-indicators"
+            >
+              <li
+                className="active"
+                data-slide-to={0}
+                data-target="#productCarousel"
+              />
+              <li
+                className=""
+                data-slide-to={1}
+                data-target="#productCarousel"
+              />
+              <li
+                className=""
+                data-slide-to={2}
+                data-target="#productCarousel"
+              />
+            </ol>
+            <div
+              className="carousel-inner"
+            >
+              <div
+                className="carousel-item active"
+              >
+                <img
+                  alt=""
+                  className="d-block img-fluid"
+                  src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-1-m.jpg"
+                />
+              </div>
+              <div
+                className="carousel-item"
+              >
+                <img
+                  alt=""
+                  className="d-block img-fluid"
+                  src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-midnight-m.jpg"
+                />
+              </div>
+              <div
+                className="carousel-item"
+              >
+                <img
+                  alt=""
+                  className="d-block img-fluid"
+                  src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-m.jpg"
+                />
+              </div>
+            </div>
+            <a
+              className="carousel-control-prev mt-4"
+              data-slide="prev"
+              href="#productCarousel"
+              role="button"
+            >
+              <span
+                aria-hidden="true"
+                className="carousel-control-prev-icon"
+              />
+              <span
+                className="sr-only"
+              >
+                Previous
+              </span>
+            </a>
+            <a
+              className="carousel-control-next mt-4"
+              data-slide="next"
+              href="#productCarousel"
+              role="button"
+            >
+              <span
+                aria-hidden="true"
+                className="carousel-control-next-icon"
+              />
+              <span
+                className="sr-only"
+              >
+                Next
+              </span>
+            </a>
+          </div>,
+        ],
+        "className": "mt-5 pt-5",
+        "id": "carousel",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "aria-label": "Close",
+            "children": <span
+              aria-hidden="true"
+            >
+              ×
+            </span>,
+            "className": "close",
+            "onClick": [Function],
+            "type": "button",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "aria-hidden": "true",
+              "children": "×",
+            },
+            "ref": null,
+            "rendered": "×",
+            "type": "span",
+          },
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <ol
+                className="carousel-indicators"
+              >
+                <li
+                  className="active"
+                  data-slide-to={0}
+                  data-target="#productCarousel"
+                />
+                <li
+                  className=""
+                  data-slide-to={1}
+                  data-target="#productCarousel"
+                />
+                <li
+                  className=""
+                  data-slide-to={2}
+                  data-target="#productCarousel"
+                />
+              </ol>,
+              <div
+                className="carousel-inner"
+              >
+                <div
+                  className="carousel-item active"
+                >
+                  <img
+                    alt=""
+                    className="d-block img-fluid"
+                    src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-1-m.jpg"
+                  />
+                </div>
+                <div
+                  className="carousel-item"
+                >
+                  <img
+                    alt=""
+                    className="d-block img-fluid"
+                    src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-midnight-m.jpg"
+                  />
+                </div>
+                <div
+                  className="carousel-item"
+                >
+                  <img
+                    alt=""
+                    className="d-block img-fluid"
+                    src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-m.jpg"
+                  />
+                </div>
+              </div>,
+              <a
+                className="carousel-control-prev mt-4"
+                data-slide="prev"
+                href="#productCarousel"
+                role="button"
+              >
+                <span
+                  aria-hidden="true"
+                  className="carousel-control-prev-icon"
+                />
+                <span
+                  className="sr-only"
+                >
+                  Previous
+                </span>
+              </a>,
+              <a
+                className="carousel-control-next mt-4"
+                data-slide="next"
+                href="#productCarousel"
+                role="button"
+              >
+                <span
+                  aria-hidden="true"
+                  className="carousel-control-next-icon"
+                />
+                <span
+                  className="sr-only"
+                >
+                  Next
+                </span>
+              </a>,
+            ],
+            "className": "carousel slide",
+            "data-ride": "carousel",
+            "id": "productCarousel",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <li
+                    className="active"
+                    data-slide-to={0}
+                    data-target="#productCarousel"
+                  />,
+                  <li
+                    className=""
+                    data-slide-to={1}
+                    data-target="#productCarousel"
+                  />,
+                  <li
+                    className=""
+                    data-slide-to={2}
+                    data-target="#productCarousel"
+                  />,
+                ],
+                "className": "carousel-indicators",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "active",
+                    "data-slide-to": 0,
+                    "data-target": "#productCarousel",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "",
+                    "data-slide-to": 1,
+                    "data-target": "#productCarousel",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "li",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "host",
+                  "props": Object {
+                    "className": "",
+                    "data-slide-to": 2,
+                    "data-target": "#productCarousel",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "li",
+                },
+              ],
+              "type": "ol",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <div
+                    className="carousel-item active"
+                  >
+                    <img
+                      alt=""
+                      className="d-block img-fluid"
+                      src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-1-m.jpg"
+                    />
+                  </div>,
+                  <div
+                    className="carousel-item"
+                  >
+                    <img
+                      alt=""
+                      className="d-block img-fluid"
+                      src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-midnight-m.jpg"
+                    />
+                  </div>,
+                  <div
+                    className="carousel-item"
+                  >
+                    <img
+                      alt=""
+                      className="d-block img-fluid"
+                      src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-m.jpg"
+                    />
+                  </div>,
+                ],
+                "className": "carousel-inner",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "0",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <img
+                      alt=""
+                      className="d-block img-fluid"
+                      src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-1-m.jpg"
+                    />,
+                    "className": "carousel-item active",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "",
+                      "className": "d-block img-fluid",
+                      "src": "https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-1-m.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <img
+                      alt=""
+                      className="d-block img-fluid"
+                      src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-midnight-m.jpg"
+                    />,
+                    "className": "carousel-item",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "",
+                      "className": "d-block img-fluid",
+                      "src": "https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-midnight-m.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "type": "div",
+                },
+                Object {
+                  "instance": null,
+                  "key": "2",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <img
+                      alt=""
+                      className="d-block img-fluid"
+                      src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-m.jpg"
+                    />,
+                    "className": "carousel-item",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "",
+                      "className": "d-block img-fluid",
+                      "src": "https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-m.jpg",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "img",
+                  },
+                  "type": "div",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    aria-hidden="true"
+                    className="carousel-control-prev-icon"
+                  />,
+                  <span
+                    className="sr-only"
+                  >
+                    Previous
+                  </span>,
+                ],
+                "className": "carousel-control-prev mt-4",
+                "data-slide": "prev",
+                "href": "#productCarousel",
+                "role": "button",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "aria-hidden": "true",
+                    "className": "carousel-control-prev-icon",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Previous",
+                    "className": "sr-only",
+                  },
+                  "ref": null,
+                  "rendered": "Previous",
+                  "type": "span",
+                },
+              ],
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <span
+                    aria-hidden="true"
+                    className="carousel-control-next-icon"
+                  />,
+                  <span
+                    className="sr-only"
+                  >
+                    Next
+                  </span>,
+                ],
+                "className": "carousel-control-next mt-4",
+                "data-slide": "next",
+                "href": "#productCarousel",
+                "role": "button",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "aria-hidden": "true",
+                    "className": "carousel-control-next-icon",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "span",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Next",
+                    "className": "sr-only",
+                  },
+                  "ref": null,
+                  "rendered": "Next",
+                  "type": "span",
+                },
+              ],
+              "type": "a",
+            },
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": <div
+          className="mt-5 pt-5"
+          id="carousel"
+        >
+          <button
+            aria-label="Close"
+            className="close"
+            onClick={[Function]}
+            type="button"
+          >
+            <span
+              aria-hidden="true"
+            >
+              ×
+            </span>
+          </button>
+          <div
+            className="carousel slide"
+            data-ride="carousel"
+            id="productCarousel"
+          >
+            <ol
+              className="carousel-indicators"
+            >
+              <li
+                className="active"
+                data-slide-to={0}
+                data-target="#productCarousel"
+              />
+              <li
+                className=""
+                data-slide-to={1}
+                data-target="#productCarousel"
+              />
+              <li
+                className=""
+                data-slide-to={2}
+                data-target="#productCarousel"
+              />
+            </ol>
+            <div
+              className="carousel-inner"
+            >
+              <div
+                className="carousel-item active"
+              >
+                <img
+                  alt=""
+                  className="d-block img-fluid"
+                  src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-1-m.jpg"
+                />
+              </div>
+              <div
+                className="carousel-item"
+              >
+                <img
+                  alt=""
+                  className="d-block img-fluid"
+                  src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-midnight-m.jpg"
+                />
+              </div>
+              <div
+                className="carousel-item"
+              >
+                <img
+                  alt=""
+                  className="d-block img-fluid"
+                  src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-m.jpg"
+                />
+              </div>
+            </div>
+            <a
+              className="carousel-control-prev mt-4"
+              data-slide="prev"
+              href="#productCarousel"
+              role="button"
+            >
+              <span
+                aria-hidden="true"
+                className="carousel-control-prev-icon"
+              />
+              <span
+                className="sr-only"
+              >
+                Previous
+              </span>
+            </a>
+            <a
+              className="carousel-control-next mt-4"
+              data-slide="next"
+              href="#productCarousel"
+              role="button"
+            >
+              <span
+                aria-hidden="true"
+                className="carousel-control-next-icon"
+              />
+              <span
+                className="sr-only"
+              >
+                Next
+              </span>
+            </a>
+          </div>
+        </div>,
+        "className": "h-100 w-100 justify-content-center align-items-center position-absolute sticky-top",
+        "id": "carouselContainer",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <button
+              aria-label="Close"
+              className="close"
+              onClick={[Function]}
+              type="button"
+            >
+              <span
+                aria-hidden="true"
+              >
+                ×
+              </span>
+            </button>,
+            <div
+              className="carousel slide"
+              data-ride="carousel"
+              id="productCarousel"
+            >
+              <ol
+                className="carousel-indicators"
+              >
+                <li
+                  className="active"
+                  data-slide-to={0}
+                  data-target="#productCarousel"
+                />
+                <li
+                  className=""
+                  data-slide-to={1}
+                  data-target="#productCarousel"
+                />
+                <li
+                  className=""
+                  data-slide-to={2}
+                  data-target="#productCarousel"
+                />
+              </ol>
+              <div
+                className="carousel-inner"
+              >
+                <div
+                  className="carousel-item active"
+                >
+                  <img
+                    alt=""
+                    className="d-block img-fluid"
+                    src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-1-m.jpg"
+                  />
+                </div>
+                <div
+                  className="carousel-item"
+                >
+                  <img
+                    alt=""
+                    className="d-block img-fluid"
+                    src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-midnight-m.jpg"
+                  />
+                </div>
+                <div
+                  className="carousel-item"
+                >
+                  <img
+                    alt=""
+                    className="d-block img-fluid"
+                    src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-m.jpg"
+                  />
+                </div>
+              </div>
+              <a
+                className="carousel-control-prev mt-4"
+                data-slide="prev"
+                href="#productCarousel"
+                role="button"
+              >
+                <span
+                  aria-hidden="true"
+                  className="carousel-control-prev-icon"
+                />
+                <span
+                  className="sr-only"
+                >
+                  Previous
+                </span>
+              </a>
+              <a
+                className="carousel-control-next mt-4"
+                data-slide="next"
+                href="#productCarousel"
+                role="button"
+              >
+                <span
+                  aria-hidden="true"
+                  className="carousel-control-next-icon"
+                />
+                <span
+                  className="sr-only"
+                >
+                  Next
+                </span>
+              </a>
+            </div>,
+          ],
+          "className": "mt-5 pt-5",
+          "id": "carousel",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "aria-label": "Close",
+              "children": <span
+                aria-hidden="true"
+              >
+                ×
+              </span>,
+              "className": "close",
+              "onClick": [Function],
+              "type": "button",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "aria-hidden": "true",
+                "children": "×",
+              },
+              "ref": null,
+              "rendered": "×",
+              "type": "span",
+            },
+            "type": "button",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <ol
+                  className="carousel-indicators"
+                >
+                  <li
+                    className="active"
+                    data-slide-to={0}
+                    data-target="#productCarousel"
+                  />
+                  <li
+                    className=""
+                    data-slide-to={1}
+                    data-target="#productCarousel"
+                  />
+                  <li
+                    className=""
+                    data-slide-to={2}
+                    data-target="#productCarousel"
+                  />
+                </ol>,
+                <div
+                  className="carousel-inner"
+                >
+                  <div
+                    className="carousel-item active"
+                  >
+                    <img
+                      alt=""
+                      className="d-block img-fluid"
+                      src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-1-m.jpg"
+                    />
+                  </div>
+                  <div
+                    className="carousel-item"
+                  >
+                    <img
+                      alt=""
+                      className="d-block img-fluid"
+                      src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-midnight-m.jpg"
+                    />
+                  </div>
+                  <div
+                    className="carousel-item"
+                  >
+                    <img
+                      alt=""
+                      className="d-block img-fluid"
+                      src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-m.jpg"
+                    />
+                  </div>
+                </div>,
+                <a
+                  className="carousel-control-prev mt-4"
+                  data-slide="prev"
+                  href="#productCarousel"
+                  role="button"
+                >
+                  <span
+                    aria-hidden="true"
+                    className="carousel-control-prev-icon"
+                  />
+                  <span
+                    className="sr-only"
+                  >
+                    Previous
+                  </span>
+                </a>,
+                <a
+                  className="carousel-control-next mt-4"
+                  data-slide="next"
+                  href="#productCarousel"
+                  role="button"
+                >
+                  <span
+                    aria-hidden="true"
+                    className="carousel-control-next-icon"
+                  />
+                  <span
+                    className="sr-only"
+                  >
+                    Next
+                  </span>
+                </a>,
+              ],
+              "className": "carousel slide",
+              "data-ride": "carousel",
+              "id": "productCarousel",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <li
+                      className="active"
+                      data-slide-to={0}
+                      data-target="#productCarousel"
+                    />,
+                    <li
+                      className=""
+                      data-slide-to={1}
+                      data-target="#productCarousel"
+                    />,
+                    <li
+                      className=""
+                      data-slide-to={2}
+                      data-target="#productCarousel"
+                    />,
+                  ],
+                  "className": "carousel-indicators",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "active",
+                      "data-slide-to": 0,
+                      "data-target": "#productCarousel",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "",
+                      "data-slide-to": 1,
+                      "data-target": "#productCarousel",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "li",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "2",
+                    "nodeType": "host",
+                    "props": Object {
+                      "className": "",
+                      "data-slide-to": 2,
+                      "data-target": "#productCarousel",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "li",
+                  },
+                ],
+                "type": "ol",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <div
+                      className="carousel-item active"
+                    >
+                      <img
+                        alt=""
+                        className="d-block img-fluid"
+                        src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-1-m.jpg"
+                      />
+                    </div>,
+                    <div
+                      className="carousel-item"
+                    >
+                      <img
+                        alt=""
+                        className="d-block img-fluid"
+                        src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-midnight-m.jpg"
+                      />
+                    </div>,
+                    <div
+                      className="carousel-item"
+                    >
+                      <img
+                        alt=""
+                        className="d-block img-fluid"
+                        src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-m.jpg"
+                      />
+                    </div>,
+                  ],
+                  "className": "carousel-inner",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": "0",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <img
+                        alt=""
+                        className="d-block img-fluid"
+                        src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-1-m.jpg"
+                      />,
+                      "className": "carousel-item active",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "",
+                        "className": "d-block img-fluid",
+                        "src": "https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-1-m.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "1",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <img
+                        alt=""
+                        className="d-block img-fluid"
+                        src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-midnight-m.jpg"
+                      />,
+                      "className": "carousel-item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "",
+                        "className": "d-block img-fluid",
+                        "src": "https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-midnight-m.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    "type": "div",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": "2",
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <img
+                        alt=""
+                        className="d-block img-fluid"
+                        src="https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-m.jpg"
+                      />,
+                      "className": "carousel-item",
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "alt": "",
+                        "className": "d-block img-fluid",
+                        "src": "https://www.westelm.com/weimgs/ab/images/wcm/products/201848/0001/organic-luxe-fibrosoft-towels-white-m.jpg",
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": "img",
+                    },
+                    "type": "div",
+                  },
+                ],
+                "type": "div",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <span
+                      aria-hidden="true"
+                      className="carousel-control-prev-icon"
+                    />,
+                    <span
+                      className="sr-only"
+                    >
+                      Previous
+                    </span>,
+                  ],
+                  "className": "carousel-control-prev mt-4",
+                  "data-slide": "prev",
+                  "href": "#productCarousel",
+                  "role": "button",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "aria-hidden": "true",
+                      "className": "carousel-control-prev-icon",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Previous",
+                      "className": "sr-only",
+                    },
+                    "ref": null,
+                    "rendered": "Previous",
+                    "type": "span",
+                  },
+                ],
+                "type": "a",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <span
+                      aria-hidden="true"
+                      className="carousel-control-next-icon"
+                    />,
+                    <span
+                      className="sr-only"
+                    >
+                      Next
+                    </span>,
+                  ],
+                  "className": "carousel-control-next mt-4",
+                  "data-slide": "next",
+                  "href": "#productCarousel",
+                  "role": "button",
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "aria-hidden": "true",
+                      "className": "carousel-control-next-icon",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": "span",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Next",
+                      "className": "sr-only",
+                    },
+                    "ref": null,
+                    "rendered": "Next",
+                    "type": "span",
+                  },
+                ],
+                "type": "a",
+              },
+            ],
+            "type": "div",
+          },
+        ],
+        "type": "div",
+      },
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "legacyContextMode": "parent",
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getChildContext": Object {
+            "calledByRenderer": false,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
