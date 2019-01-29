@@ -6,8 +6,8 @@ import './product.css'
 class Product extends Component {
   constructor({showCarousel, hideCarousel, props}) {
     super(props);
-    this.showCarousel = showCarousel
-    this.hideCarousel = hideCarousel
+    this.showCarousel = showCarousel;
+    this.hideCarousel = hideCarousel;
   }
   handleProductClick = ()  => {
     const {product, showCarousel} = this.props;

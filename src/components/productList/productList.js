@@ -14,7 +14,7 @@ class ProductList extends Component {
       list: [], 
       showCarousel: false
     };
-    this.showCarousel = this.showCarousel.bind(this)
+    this.showCarousel = this.showCarousel.bind(this);
   }
 
   showCarousel = (currentProductImages) => {

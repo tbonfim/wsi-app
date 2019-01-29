@@ -3,13 +3,10 @@ import React, { Component } from 'react';
 
 import './carousel.css'
 class Carousel extends Component {
-  constructor(props) {
-    super(props);
-  }
+
   handleClose = () => {
     const {hideCarousel} = this.props;
-    console.log("closing carousel");
-    hideCarousel()
+    hideCarousel();
   }
 
   render() {
